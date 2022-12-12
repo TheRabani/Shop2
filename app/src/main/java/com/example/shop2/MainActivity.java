@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
-                                        Toast.makeText(MainActivity.this, "dsdsdsds", Toast.LENGTH_SHORT).show();
                                         if(task.isSuccessful())
                                         {
                                             Toast.makeText(MainActivity.this, "Toy added!", Toast.LENGTH_SHORT).show();
